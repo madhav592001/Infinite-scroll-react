@@ -1,0 +1,26 @@
+.home-screen {
+  padding: 3% 10%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  font-size: 0.9rem;
+  margin: 3% 0;
+}
+
+.logout-btn-container {
+  width: 100%;
+}
+
+.logout-btn-container button {
+  float: right;
+}
+
+@media only screen and (max-width: 320px) {
+  .user {
+    font-size: 0.5rem;
+  }
+}
